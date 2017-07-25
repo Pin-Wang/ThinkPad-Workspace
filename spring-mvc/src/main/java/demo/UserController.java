@@ -12,8 +12,11 @@ import org.springframework.web.servlet.mvc.Controller;
 
 public class UserController implements Controller {
 	 
+	@Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        List<User> users = new ArrayList<User>();
+        
+    	System.out.println("fddff");
+    	List<User> users = new ArrayList<User>();
         users.add(new User(1, "翡青", new Date(), "man", "浙江-杭州"));
         users.add(new User(2, "小芳", new Date(), "woman", "山东-青岛"));
  
