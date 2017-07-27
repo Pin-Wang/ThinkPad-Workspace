@@ -12,6 +12,6 @@ public class TestController
     public String dispatchTest()
     {
         System.out.println("Enter TestController.dispatchTest");
-        return "";
+        return "fdfdf";
     }
 }
