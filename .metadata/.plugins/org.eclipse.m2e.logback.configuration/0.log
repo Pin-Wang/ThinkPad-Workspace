@@ -5359,3 +5359,521 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 2017-07-27 22:10:36,978 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-07-27 22:10:36,980 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-27 22:10:36,981 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-mvc\src\test\resources
+2017-07-27 22:17:48,123 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:17:48,132 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 22:17:48,135 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:17:48,135 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-mvc\src\test\resources
+2017-07-27 22:21:44,793 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:21:44,795 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 22:21:44,797 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:21:44,797 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-mvc\src\test\resources
+2017-07-27 22:22:39,053 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:22:39,054 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 22:22:39,055 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:22:39,055 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-mvc\src\test\resources
+2017-07-27 22:27:41,889 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:spring-mvc:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\spring-annotation\pom.xml.
+2017-07-27 22:27:42,025 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:27:42,027 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:27:42,755 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-annotation/src/main/java
+2017-07-27 22:27:42,756 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-annotation/src/test/java
+2017-07-27 22:27:42,904 [Worker-1] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure spring-annotation
+org.eclipse.m2e.wtp.MarkedException: Unable to configure spring-annotation
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:168) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:68) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:77) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240) ~[org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267) ~[org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 20 common frames omitted
+2017-07-27 22:27:43,490 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:27:43,492 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:27:43,658 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2017-07-27 22:27:44,910 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:27:44,911 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:27:44,912 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:27:44,913 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:28:16,167 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-27 22:28:16,468 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:spring-mvc:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\spring-annotation\pom.xml.
+2017-07-27 22:28:16,554 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:28:16,556 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:28:17,052 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-annotation/src/main/java
+2017-07-27 22:28:17,053 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-annotation/src/test/java
+2017-07-27 22:28:17,100 [Worker-12] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure spring-annotation
+org.eclipse.m2e.wtp.MarkedException: Unable to configure spring-annotation
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240) ~[org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267) ~[org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94) ~[na:na]
+	... 18 common frames omitted
+2017-07-27 22:28:17,185 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:28:17,187 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-27 22:28:17,342 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-annotation
+2017-07-27 22:28:17,350 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-27 22:28:17,643 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:28:17,643 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:28:17,645 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:28:17,645 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:28:17,645 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-annotation
+2017-07-27 22:28:17,647 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-annotation
+2017-07-27 22:28:17,650 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2017-07-27 22:28:17,657 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:30:22,819 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:30:22,819 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:30:22,820 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:30:22,820 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:36:35,916 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:36:35,917 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:36:35,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:36:35,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:39:56,626 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:39:56,626 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:39:56,627 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:39:56,627 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:48:23,252 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:spring-mvc:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\spring-annotation\pom.xml.
+2017-07-27 22:48:23,852 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:48:23,853 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:48:23,854 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:48:23,854 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:48:23,855 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-annotation
+2017-07-27 22:48:23,855 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-annotation
+2017-07-27 22:48:23,859 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:48:39,753 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:48:39,754 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:48:39,755 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:48:39,755 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-27 22:49:26,616 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:49:26,617 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\main\resources
+2017-07-27 22:49:26,618 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-27 22:49:26,618 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\spring-annotation\src\test\resources
+2017-07-28 21:01:53,874 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' E:\Java\WorkSpace\jetty\pom.xml
+2017-07-28 21:01:55,089 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:01:55,902 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/main/java
+2017-07-28 21:01:55,902 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jetty/src/main/resources
+2017-07-28 21:01:55,903 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/test/java
+2017-07-28 21:01:58,608 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-28 21:01:58,612 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-28 21:01:58,647 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2017-07-28 21:01:59,141 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:01:59,151 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:01:59,166 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:01:59,168 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:02:56,000 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:02:56,003 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:02:56,005 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:02:56,006 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:03:26,283 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:03:26,563 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/${jetty.version}/jetty-webapp-${jetty.version}.pom
+2017-07-28 21:03:26,565 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:26,725 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/${jetty.version}/jetty-jsp-${jetty.version}.pom
+2017-07-28 21:03:26,727 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:26,913 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/${jetty.version}/jetty-webapp-${jetty.version}.jar
+2017-07-28 21:03:27,044 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/${jetty.version}/jetty-jsp-${jetty.version}.jar
+2017-07-28 21:03:27,060 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-28 21:03:27,062 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.5: Plugin org.apache.maven.plugins:maven-clean-plugin:2.5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+2017-07-28 21:03:27,066 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:27,068 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:27,654 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:27,657 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:03:27,662 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:27,671 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:03:27,674 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:03:27,675 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:03:27,679 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2017-07-28 21:03:27,687 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:27,882 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:27,885 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:27,897 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:27,899 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:03:27,901 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:27,903 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:03:32,469 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:03:32,471 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:32,473 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:32,494 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:32,496 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:03:32,954 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:32,957 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:03:32,963 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:03:32,965 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:03:32,966 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:03:32,966 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:03:32,972 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:04:05,319 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-28 21:04:05,675 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:04:05,677 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:05,679 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:05,694 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:05,695 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:06,163 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/main/java
+2017-07-28 21:04:06,164 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jetty/src/main/resources
+2017-07-28 21:04:06,164 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/test/java
+2017-07-28 21:04:10,423 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:10,424 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:10,454 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for jetty
+2017-07-28 21:04:10,468 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2017-07-28 21:04:10,611 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:10,613 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:10,738 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:04:10,739 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:04:10,744 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:04:10,745 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:04:10,745 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:04:10,745 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:04:10,780 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:04:42,671 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:04:42,673 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:42,676 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:42,704 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:42,706 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:04:43,162 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:04:43,164 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:04:43,169 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:04:43,170 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:04:43,171 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:04:43,171 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:04:43,179 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:10,137 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:10,138 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:10,545 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:05:10,548 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:10,550 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:10,567 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:10,569 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:11,056 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:11,060 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:05:11,063 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:11,064 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:05:11,065 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:05:11,065 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:05:11,075 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:26,639 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-28 21:05:26,938 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:05:27,051 [Worker-16] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/${jetty.version}/jetty-webapp-${jetty.version}.pom
+2017-07-28 21:05:27,052 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:27,150 [Worker-16] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/${jetty.version}/jetty-jsp-${jetty.version}.pom
+2017-07-28 21:05:27,151 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:27,254 [Worker-16] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/${jetty.version}/jetty-webapp-${jetty.version}.jar
+2017-07-28 21:05:27,457 [Worker-16] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/${jetty.version}/jetty-jsp-${jetty.version}.jar
+2017-07-28 21:05:27,464 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:27,465 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:27,914 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/main/java
+2017-07-28 21:05:27,914 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jetty/src/main/resources
+2017-07-28 21:05:27,914 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/test/java
+2017-07-28 21:05:28,861 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:28,863 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:28,894 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for jetty
+2017-07-28 21:05:28,902 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-07-28 21:05:29,107 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:29,109 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:29,315 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:29,317 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:05:29,320 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:29,321 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:05:29,321 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:05:29,321 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:05:29,327 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:38,215 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:05:38,216 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:38,219 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:38,228 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:38,230 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:05:38,615 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:38,617 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:05:38,619 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:05:38,620 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:05:38,620 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:05:38,620 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:05:38,625 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:06:43,420 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:06:43,421 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt install
+2017-07-28 21:07:17,623 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:07:17,625 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:07:18,103 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:07:18,105 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:07:18,107 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:07:18,129 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:07:18,131 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:07:18,608 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:07:18,610 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:07:18,612 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:07:18,613 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:07:18,613 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:07:18,613 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:07:18,616 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:07:29,931 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:07:29,931 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt install
+2017-07-28 21:08:37,444 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:08:37,445 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:08:37,832 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:08:37,834 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:08:37,836 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:08:37,846 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:08:37,847 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:08:38,314 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:08:38,316 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:08:38,320 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:08:38,321 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:08:38,321 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:08:38,321 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:08:38,326 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:09:00,088 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:09:00,088 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt install
+2017-07-28 21:16:04,686 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:04,691 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:05,146 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:16:05,148 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:05,151 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:05,172 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:05,173 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:05,575 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:05,578 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:16:05,580 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:05,581 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:16:05,581 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:16:05,582 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:16:05,587 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:32,364 [Worker-1] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/jetty/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:804) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1010) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724) ~[na:na]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193) ~[na:na]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1008) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261) ~[org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-07-28 21:16:32,492 [Worker-16] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235) [org.eclipse.core.resources_3.11.0.v20160503-1608.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </plugins> must match start tag name <build> from line 35 (position: TEXT seen ...<build>\r\n  </plugins>... @36:13) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </plugins> must match start tag name <build> from line 35 (position: TEXT seen ...<build>\r\n  </plugins>... @36:13) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1727) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1169) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1118) ~[plexus-utils-3.0.22.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:878) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2277) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3845) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	... 26 common frames omitted
+2017-07-28 21:16:35,939 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:35,947 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:35,958 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:35,959 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:36,444 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:16:36,445 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:36,447 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:36,633 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-maven-plugin/${jetty.version}/jetty-maven-plugin-${jetty.version}.pom
+2017-07-28 21:16:36,635 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:36,833 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-maven-plugin/${jetty.version}/jetty-maven-plugin-${jetty.version}.jar
+2017-07-28 21:16:36,835 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Could not find artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in alimaven (http://maven.aliyun.com/nexus/content/groups/public)
+2017-07-28 21:16:36,837 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:36,837 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:16:36,840 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:36,841 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:37,354 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:37,357 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:16:37,359 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:37,360 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:16:37,360 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:16:37,360 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:16:37,362 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:37,364 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Cannot access alimaven (http://maven.aliyun.com/nexus/content/groups/public) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} has not been downloaded from it before.
+2017-07-28 21:16:37,365 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:37,368 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Cannot access alimaven (http://maven.aliyun.com/nexus/content/groups/public) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} has not been downloaded from it before.
+2017-07-28 21:16:37,371 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:37,579 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:37,584 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:37,775 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:37,778 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:16:37,780 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:37,781 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:16:51,528 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:16:51,530 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,531 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,539 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,540 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:16:51,542 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,543 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:16:51,545 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,546 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,954 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:51,959 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:16:51,965 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:16:51,966 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:16:51,967 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:16:51,967 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:16:51,969 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,970 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Cannot access alimaven (http://maven.aliyun.com/nexus/content/groups/public) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} has not been downloaded from it before.
+2017-07-28 21:16:51,971 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:16:51,972 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Cannot access alimaven (http://maven.aliyun.com/nexus/content/groups/public) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} has not been downloaded from it before.
+2017-07-28 21:16:51,975 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:17:05,093 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-28 21:17:05,280 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:17:05,282 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:05,284 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:05,295 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:05,296 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:17:05,297 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:05,298 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:17:05,301 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:05,302 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:05,698 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/main/java
+2017-07-28 21:17:05,699 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jetty/src/main/resources
+2017-07-28 21:17:05,699 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jetty/src/test/java
+2017-07-28 21:17:06,778 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:06,779 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:17:06,780 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:06,782 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} in http://maven.aliyun.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of alimaven has elapsed or updates are forced
+2017-07-28 21:17:06,784 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:06,786 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:06,808 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for jetty
+2017-07-28 21:17:06,815 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-07-28 21:17:07,068 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty.aggregate:jetty-webapp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:07,070 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.eclipse.jetty:jetty-jsp:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:07,224 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:17:07,225 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:17:07,227 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:17:07,228 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:17:07,228 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:17:07,228 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:17:07,231 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:07,232 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Cannot access alimaven (http://maven.aliyun.com/nexus/content/groups/public) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} has not been downloaded from it before.
+2017-07-28 21:17:07,233 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} is missing, no dependency information available
+2017-07-28 21:17:07,234 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:${jetty.version}: Plugin org.mortbay.jetty:jetty-maven-plugin:${jetty.version} or one of its dependencies could not be resolved: Cannot access alimaven (http://maven.aliyun.com/nexus/content/groups/public) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:${jetty.version} has not been downloaded from it before.
+2017-07-28 21:17:07,238 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:17:16,049 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:17:16,050 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt install
+2017-07-28 21:18:08,781 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: demo:jetty:0.0.1-SNAPSHOT @ E:\Java\WorkSpace\jetty\pom.xml.
+2017-07-28 21:18:09,022 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/8.1.9.v20130131/jetty-webapp-8.1.9.v20130131.pom
+2017-07-28 21:18:09,098 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/8.1.9.v20130131/jetty-webapp-8.1.9.v20130131.pom
+2017-07-28 21:18:09,271 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-aggregate-project/8.1.9.v20130131/jetty-aggregate-project-8.1.9.v20130131.pom
+2017-07-28 21:18:09,384 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-aggregate-project/8.1.9.v20130131/jetty-aggregate-project-8.1.9.v20130131.pom
+2017-07-28 21:18:09,487 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-project/8.1.9.v20130131/jetty-project-8.1.9.v20130131.pom
+2017-07-28 21:18:09,645 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-project/8.1.9.v20130131/jetty-project-8.1.9.v20130131.pom
+2017-07-28 21:18:10,263 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/8.1.9.v20130131/jetty-jsp-8.1.9.v20130131.pom
+2017-07-28 21:18:10,330 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/8.1.9.v20130131/jetty-jsp-8.1.9.v20130131.pom
+2017-07-28 21:18:11,282 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/8.1.9.v20130131/jetty-webapp-8.1.9.v20130131.jar
+2017-07-28 21:18:12,260 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/aggregate/jetty-webapp/8.1.9.v20130131/jetty-webapp-8.1.9.v20130131.jar
+2017-07-28 21:18:12,412 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/8.1.9.v20130131/jetty-jsp-8.1.9.v20130131.jar
+2017-07-28 21:18:12,479 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/eclipse/jetty/jetty-jsp/8.1.9.v20130131/jetty-jsp-8.1.9.v20130131.jar
+2017-07-28 21:18:13,446 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-maven-plugin/8.1.9.v20130131/jetty-maven-plugin-8.1.9.v20130131.pom
+2017-07-28 21:18:13,518 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-maven-plugin/8.1.9.v20130131/jetty-maven-plugin-8.1.9.v20130131.pom
+2017-07-28 21:18:13,629 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-integration-project/8.1.9.v20130131/jetty-integration-project-8.1.9.v20130131.pom
+2017-07-28 21:18:13,696 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-integration-project/8.1.9.v20130131/jetty-integration-project-8.1.9.v20130131.pom
+2017-07-28 21:18:13,780 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-parent/13/jetty-parent-13.pom
+2017-07-28 21:18:13,846 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-parent/13/jetty-parent-13.pom
+2017-07-28 21:18:14,030 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-maven-plugin/8.1.9.v20130131/jetty-maven-plugin-8.1.9.v20130131.jar
+2017-07-28 21:18:14,249 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mortbay/jetty/jetty-maven-plugin/8.1.9.v20130131/jetty-maven-plugin-8.1.9.v20130131.jar
+2017-07-28 21:18:14,641 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:14,644 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:18:14,646 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:14,647 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:18:14,647 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of jetty
+2017-07-28 21:18:14,647 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for jetty
+2017-07-28 21:18:14,650 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:14,999 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:15,002 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:18:15,003 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:15,005 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:18:27,749 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:18:27,749 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt install
+2017-07-28 21:18:31,389 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:31,390 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:18:31,392 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:18:31,393 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:21:59,301 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:21:59,302 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt install
+2017-07-28 21:22:03,602 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:22:03,606 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-28 21:22:03,608 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-28 21:22:03,609 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Java\WorkSpace\jetty\src\test\resources
+2017-07-28 21:24:25,247 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Java\WorkSpace\jetty
+2017-07-28 21:24:25,247 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -gs E:\Java\MavenDatas\settings.xml.txt jetty:run

@@ -6,6 +6,20 @@
 	<list key="CommitDialog.committerValues">
 		<item value="Pin-Wang &lt;1228935432@qq.com&gt;"/>
 	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.RebaseTargetSelectionDialog.dialogBounds">
+		<item value="788" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="648" key="DIALOG_HEIGHT"/>
+		<item value="577" key="DIALOG_X_ORIGIN"/>
+		<item value="96" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="788" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="942" key="DIALOG_HEIGHT"/>
+		<item value="577" key="DIALOG_X_ORIGIN"/>
+		<item value="11" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="788" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
@@ -17,17 +31,31 @@
 			<item value="400"/>
 		</list>
 	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="729" key="DIALOG_X_ORIGIN"/>
+		<item value="349" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item value="540" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="286" key="DIALOG_HEIGHT"/>
+		<item value="701" key="DIALOG_X_ORIGIN"/>
+		<item value="338" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="GitCommitMessageComponent">
 		<list key="E:\Java\WorkSpace\.git">
-			<item value="false"/>
-			<item value="Pin-Wang &lt;1228935432@qq.com&gt;"/>
-			<item value="fd"/>
-			<item value="Pin-Wang &lt;1228935432@qq.com&gt;"/>
-			<item value="810c2053e83aa32dbb327f4cc1742dd18b5fcb3f"/>
+			<item value="empty"/>
 		</list>
 	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item value="788" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="841" key="DIALOG_HEIGHT"/>
+		<item value="577" key="DIALOG_X_ORIGIN"/>
+		<item value="11" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item value="651,348" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="613,386" key="STAGING_SASH_FORM_WEIGHT"/>
 		<item value="false" key="sortItemState"/>
 		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
 	</section>

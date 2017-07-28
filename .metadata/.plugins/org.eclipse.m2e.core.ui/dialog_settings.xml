@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\Java\WorkSpace\spring-annotation"/>
 			<item value="E:\Java\WorkSpace\HadoopTest-master"/>
 		</list>
 		<list key="projectNameTemplate">
