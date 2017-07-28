@@ -10,7 +10,9 @@
   
   
 <properties>
- <jetty.version>8.1.9.v20130131</jetty.version>
+ 
+ <jetty.version>7.6.14.v20131031</jetty.version>
+ 
  </properties>
   <dependencies>
     <dependency>
@@ -25,7 +27,7 @@
  <groupId>org.eclipse.jetty.aggregate</groupId>
  <artifactId>jetty-webapp</artifactId>
  <version>${jetty.version}</version>
- <scope>test</scope>
+ <scope>provided</scope>
  </dependency>
  
  <dependency>
@@ -34,6 +36,7 @@
  <version>${jetty.version}</version>
  <scope>test</scope>
  </dependency>
+ 
   </dependencies>
   
   
