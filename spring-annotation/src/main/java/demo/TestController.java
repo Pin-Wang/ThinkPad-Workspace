@@ -1,6 +1,7 @@
 package demo;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
@@ -8,10 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value = "/test")
 public class TestController
 {
-    @RequestMapping
-    public String dispatchTest()
+    @RequestMapping("common")
+    public String dispatchTest(Test test,Model model)
     {
-        System.out.println("Enter TestController.dispatchTest");
-        return "fdfdf";
+    	model.addAttribute("modelKey", "modelValue");
+    	System.out.println("controller");
+        return "test";
     }
 }
